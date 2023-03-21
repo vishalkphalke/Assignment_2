@@ -1,0 +1,37 @@
+import "./styles.css";
+// const today = Date.now();
+function isDivisibleByTwo(d) = d % 2;
+
+
+import "./styles.css";
+// const today = Date.now();
+let d = 23;
+//function isDivisibleByTwo() {
+if (d % 2 === 0) {
+  return (
+    <div>
+      <p>{d} is divisible by 2!</p>
+    </div>
+  );
+} 
+else {
+  return (
+    <div>
+      <p>{d} is not divisible by 2.</p>
+    </div>
+  );
+}
+}
+//
+export default isDivisibleByTwo;
+
+function Generate() {
+  const arr = new Array(101).fill(0);
+  
+  return (
+      arr
+  );
+}
+
+
+export default Generate;
